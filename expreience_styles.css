@@ -1,0 +1,81 @@
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: rgb(226, 148, 31);
+}
+body{
+    margin: 0px;
+    background-color:aliceblue;
+}
+div.con1{
+    display: flex;
+    font-size: 30px;
+    margin-left: 90px;
+    color: rgb(241, 113, 7);
+}
+div.ex1{
+    padding-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 75%;
+}
+div.ex1 a{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(10, 179, 247);
+}
+div.ex1 a:hover{
+    color: red;
+}
+@keyframes example {
+    0%   {background-color:none; left:0px; top:0px;}
+    25%  {background-color:none; left:100px; top:0px;}
+    50%  {background-color:none; left:100px; top:0px;}
+    75%  {background-color:none; left:0px; top:0px;}
+    100%  {background-color:none; left:0px; top:0px;}
+  }
+div.im1{
+    width: 25%;
+    padding-right: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+div.con2{
+    display: flex;
+    font-size: 30px;
+    margin-left: 90px;
+    color: rgb(241, 11, 165);
+}
+div.ex2{
+    padding-left: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+}
+div.ex2 a{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(10, 179, 247);
+}
+div.ex2 a:hover{
+    color: red;
+}
+div.im2{
+    width: 16.5%;
+    padding-right: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

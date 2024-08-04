@@ -1,0 +1,109 @@
+body{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("backgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color:blue;
+}
+.name{
+    margin: auto;
+    overflow: hidden;
+    white-space:nowrap;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    animation: typing 3s steps(30, end) infinite, blink-caret 1s step-end infinite;
+}
+.photo{
+    margin: auto;
+    display: block;
+    width: 150px;
+    border :1px solid #1c1d17;
+    border-radius: 40%;
+    padding: 5px;
+    width: 150px;
+    
+}
+.personal_details{
+    text-align: center;
+    margin: auto;
+    border: 3px solid green;
+    border-radius: 15px;
+    height:200px;
+    width: 600px;
+    color:rgb(14, 142, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(14, 13, 13) }
+}
+.bio{
+    overflow: hidden;
+    color:rgb(31, 29, 28);
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Lobster", serif;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #21da21;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-family:serif ;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition:background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.download-btn:hover {
+    background-color: #ccc92a;
+}
+
+.download-icon {
+    margin-right: 5px;
+}
+
+.download-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color:
+        rgba(255, 255, 255, 0.3);
+    transform:
+        translateX(-50%) scaleX(0);
+    transition:
+        transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.download-btn:hover::after {
+    transform:
+        translateX(-50%) scaleX(1);
+}

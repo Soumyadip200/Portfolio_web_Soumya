@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+}
+li{
+    float:right;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+li a:hover{
+    background-color:#482cc7;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("education_backround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#education_details {
+    font-family: cursive;
+    border-collapse: collapse;
+    font-size: 27px;
+    width: 100%;
+  }
+  
+  #education_details td, #education_details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #education_details tr:nth-child(odd){background-color: #bdbaba;}
+  
+  #education_details tr:hover {background-color: #ddd;}
+  
+  #education_details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
